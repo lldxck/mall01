@@ -5,7 +5,7 @@
     <!-- <goods-list /> -->
 
     <nav-bar class="home-nav">
-      <div slot="nav-bar-center">首页</div>
+      <div slot="nav-bar-center">首页1</div>
     </nav-bar>
     <home-swiper :banner="banner" />
     <recommend-view :recommend="recommend" />
@@ -13,7 +13,7 @@
     <tab-control :titles="titles" class="tab-control" @tabClick="tabClick"/>
     <goods-list :goodsList="goods[currentGoodsType].list"/>
 
-   
+
   </div>
 </template>
 
